@@ -8,7 +8,7 @@ def validar_senha(senha: str):
                     for letra in senha:
                         if letra not in 'AaEeIiOoUu':
                             for letra in senha:
-                                if letra / 1 == letra:
+                                if let / 1 == letra:
                                     variavel = True
                                     return variavel
 
