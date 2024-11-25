@@ -1,15 +1,17 @@
 strings = ['Christiane', 'Andréa', 'Gisele', 'Agrícola']
-palavra = ''
+strings_upper = []
 
 for nome in strings:
-    print(nome.upper())
-    for letra in nome:
-        if letra == 'A':
-            strings.remove(nome)
-            continue
+    nome = nome.upper()
+    print(nome)
+    strings_upper.append(nome)
+    if nome[0] == 'A':
+        strings_upper.remove(nome)
 
-
-print(strings)
+print(f'A lista sem os nomes que começam com A é: {strings_upper}')    
+    
+    
+    
 
     
 
